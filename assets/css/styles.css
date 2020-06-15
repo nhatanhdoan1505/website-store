@@ -1,0 +1,78 @@
+#promo {
+  padding: 40px;
+  text-align: center;
+  background-image: url(../../assets/img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 65px;
+}
+
+.jumbotron {
+  padding: 48px;
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 28px;
+}
+
+@media (max-width: 576px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.navbar {
+  /*position: relative;*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*align-items: center;*/
+  /*justify-content: space-between;*/
+  /*padding: 0.5rem 1rem;*/
+  background-color: #ffffff;
+}
+
+.dark-section {
+  /*background-color: rgb(239, 247, 251);*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.item {
+  text-align: center;
+}
+
+.text-center.gallary {
+  margin-bottom: 50px;
+}
+
+.menu {
+  border-bottom: 1px solid rgb(196,196,196);
+}
+
+.logo {
+  max-width: 42px;
+  /*float: left;*/
+  margin-right: 10px;
+}
+
+.footer-dark {
+  padding: 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.container.picture {
+  margin-bottom: 50px;
+}
+
